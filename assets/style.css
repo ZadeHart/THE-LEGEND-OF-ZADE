@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: rgb(228, 122, 16);
+    --secondary: rgb(4, 91, 4);
+    --tertiary: purple;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: left;
+    background-image: url(pb_banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}  
+
+nav a {
+    font-size: 36px;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--primary);
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    font-size: 1.4rem;
+}
+
+body {
+    font-family: 'Times New Roman';
+    color: var(--primary);
+    background-color: VAR(--secondary);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    display: flex;
+    margin-top: 2%;
+    flex-wrap: wrap;  
+}
+  
+.card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+  
+.card header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+}
+  
+.card img {
+    width: 100%;
+    /* The client insists that images be at least 400px */
+}
+  
+p {
+    font-size: 36px;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    margin-right: 40px;
+}
+
+input[type=submit] {
+    padding: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: var(--tertiary);
+    color: var(--primary);
+}
+
+.resume {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
