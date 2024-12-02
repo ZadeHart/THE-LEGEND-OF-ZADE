@@ -94,11 +94,21 @@ p {
     font-size: 36px;
 }
 
-form {
-    display: flex;
-    flex-flow: column wrap;
-    position: relative;
+#form {
     margin-right: 40px;
+    margin-left: 40px;
+}
+
+#name {
+    width: 100%;
+}
+
+#email {
+    width: 100%;
+}
+
+#message {
+    width: 100%;
 }
 
 input[type=submit] {
