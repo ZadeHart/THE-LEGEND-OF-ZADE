@@ -1,6 +1,6 @@
 // import { Link } from 'react-router-dom';
 
-function NavTabs({ currentPage, handlePageChange }) {
+function Header({ currentPage, handlePageChange }) {
   return (
     <body>
         <header>
@@ -53,4 +53,4 @@ function NavTabs({ currentPage, handlePageChange }) {
   );
 }
 
-export default NavTabs;
+export default Header;
