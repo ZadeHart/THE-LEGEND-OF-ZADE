@@ -49,6 +49,10 @@ nav a {
     font-size: 1.4rem;
 }
 
+.active {
+    background-color: var(--secondary);
+}
+
 body {
     font-family: 'Times New Roman';
     color: var(--primary);
@@ -116,4 +120,17 @@ li {
 
 button:hover {
     cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer img {
+    
+    width: 5%;
+    display: inline;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
