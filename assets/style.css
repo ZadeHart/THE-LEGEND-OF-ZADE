@@ -94,7 +94,7 @@ p {
     font-size: 36px;
 }
 
-form {
+.form {
     display: flex;
     flex-flow: column wrap;
     position: relative;

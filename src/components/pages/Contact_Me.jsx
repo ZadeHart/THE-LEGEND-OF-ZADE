@@ -37,25 +37,28 @@
 
 export default function Contact() {
   return (
+
+
     <div>
       <h2>Contact Me</h2>
       <img src='/assets/hold_the_phone.gif'/>
 
-        <section className="forms">
-          <form id="form" method="post">
+          <form id="form">
             <label>Name:
-            <input type="text" id="name"/>
+            <input type="text" id="name" required/>
             </label>
+
             <label>Email Address: 
-            <input type="text" id="email"/>
+            <input type="text" id="email" required/>
             </label>
+
             <label>Message:
-            <textarea id="message"/>
+            <textarea id="message" required/>
             </label>
+
             <p id="error"></p>
             <input type="submit" value="Submit"/>
           </form>
-        </section>
 
     </div>
   );
