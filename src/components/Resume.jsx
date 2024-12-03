@@ -3,7 +3,7 @@ const onButtonClick = () => {
   const pdfUrl = "zade_resume.pdf";
   const link = document.createElement("a");
   link.href = pdfUrl;
-  link.download = "../assets/zade_resume.pdf"; // specify the filename
+  link.download = "public/images/zade_resume.pdf"; // specify the filename
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);}
@@ -12,14 +12,14 @@ export default function Resume() {
   return (
     <div>
       <h2>Resume</h2>
-      <img src='../assets/pumpkin_boy_sit.gif'/>
+      <img src={'public/images/sit.gif'}/>
 
         <div className="resume">
           <p>Download My Resume</p>
           <p>Click on the Door!</p>
           <div className="btnDiv">
           <button onClick={onButtonClick}>
-          <img src="../assets/door.gif"></img>
+          <img src={'public/images/door.gif'}/>
           </button>   
 
         </div>
