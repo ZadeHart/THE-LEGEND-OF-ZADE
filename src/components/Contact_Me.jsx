@@ -5,7 +5,7 @@ export default function Contact() {
 
     <div>
       <h2>Contact Me</h2>
-      <img src='../assets/hold_the_phone.gif'/>
+      <img src='public/images/phone.gif'/>
 
           <form id="form">
             <label>Name:

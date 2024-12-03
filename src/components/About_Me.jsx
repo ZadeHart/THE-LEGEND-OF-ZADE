@@ -1,10 +1,11 @@
 // import { Link } from 'react-router-dom';
 
+
 export default function AboutMe() {
   return (
     <div>
       <h2>About Me</h2>
-      <img src="../assets/lord_poe_2.gif"/>
+      <img src="public/images2/poe.gif"/>
       <p>
       Hello there. My name is Zach and I currently reside in Colorado. I have worked mostly in the Marijuana industry,
       but am looking to better my knowledge of coding and software engineering.
