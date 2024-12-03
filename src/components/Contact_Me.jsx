@@ -1,4 +1,4 @@
-
+import phone from '../../public/images/phone.gif'
 
 export default function Contact() {
   return (
@@ -6,7 +6,7 @@ export default function Contact() {
 
     <div>
       <h2>Contact Me</h2>
-      <img src={'public/images/phone.gif'}/>
+      <img src={phone}/>
 
           <form id="form">
             <label>Name:
