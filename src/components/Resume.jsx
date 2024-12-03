@@ -1,3 +1,5 @@
+import sit from '../../public/images/sit.gif';
+import door from '../../public/images/door.gif'
 
 const onButtonClick = () => {
   const pdfUrl = "zade_resume.pdf";
@@ -12,14 +14,14 @@ export default function Resume() {
   return (
     <div>
       <h2>Resume</h2>
-      <img src={'public/images/sit.gif'}/>
+      <img src={sit}/>
 
         <div className="resume">
           <p>Download My Resume</p>
           <p>Click on the Door!</p>
           <div className="btnDiv">
           <button onClick={onButtonClick}>
-          <img src={'public/images/door.gif'}/>
+          <img src={door}/>
           </button>   
 
         </div>
