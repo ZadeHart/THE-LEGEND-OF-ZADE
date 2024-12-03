@@ -1,11 +1,12 @@
 
+
 export default function Contact() {
   return (
 
 
     <div>
       <h2>Contact Me</h2>
-      <img src='public/images/phone.gif'/>
+      <img src={'public/images/phone.gif'}/>
 
           <form id="form">
             <label>Name:
